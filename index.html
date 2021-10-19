@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Marthos Morilha">
+		<meta name="keywords" content="Doces, Bolos, Festas, Brigadeiros">
+		<meta name="description" content="Franquia de doces">
+		<title>Doçuras Gourmet</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<nav>
+			<a class="a-menu" href="Home">Home&nbsp&nbsp</a>
+			<a class="a-menu" href="#pag-sobre">Sobre&nbsp&nbsp</a>
+			<a class="a-menu" href="#pag-produtos">Produtos&nbsp&nbsp</a>
+			<a class="a-menu" href="#pag-encomendas">Encomendas&nbsp&nbsp</a>
+		</nav>
+
+		
+		<header>		
+			<img src="imgg/banner.png">		
+		</header>
+		
+
+		<article>
+
+			<section id="pag-sobre">
+			<h1>Doçuras Gourmet</h1>
+		
+		
+			<p>A nossa franquia de doces surgiu em março de 2020, com o inicio da pandemia o delivery teve uma impulsão muito grande em todas as áreas. O delivery foi uma porta para nossos doces encontrarem mais visibilidade e também mais espaço no mercado. Nossos doces começaram a terem muita saída e começaram a ser reconhecidos em toda a cidade de Brasília. Nós temos uma variedade muito grande em nossos doces, trabalhamos com bolos, tortas, doces, biscoitos e entre outras delicias.</p>
+			<p>Essa fraquia foi desenvolvida por <i>Kátia Morilha</i>. Ela aprendeu tudo que sabe com sua mãe, que nos anos de 1990 ja era bem reconhecida em sua cidade. Todos do Núcleo Bandeirante encomendavam seus doces e bolos com sua mãe. Sua vontade de aprender a fazer foi muito grande, e com isso, aprendeu tudo e mais um pouco, caminhando assim para ser reconhecida como os melhores doces de Brasília</p>
+			<p><strong>Que nossa doçura seja contagiante</strong></p>
+
+			</section>
+
+		</article>	
+		
+		<section id="pag-produtos">
+			<h2>Produtos</h2>
+		
+
+		
+			<p>Aqui temos alguns dos produtos que nós trabalhamos.</p>
+		
+		
+		
+			<div id="container">
+				<div class="card">
+					<img class="img-produtos" src="imgg/Cenoura.jpg">
+						<div class="card-content">
+							<h3>Bolo de Cenoura</h3>
+							<p>R$ 55,00</p>
+						</div>
+				</div>
+
+				<div class="card">
+					<img class="img-produtos" src="imgg/festa.jpg">
+						<div class="card-content">
+							<h3>Bolo de Festa</h3>
+							<p>R$ 150,00</p>
+						</div>
+				</div>
+
+				<div class="card">
+					<img class="img-produtos" src="imgg/brigadeiros.jpg">
+						<div class="card-content">
+							<h3>Brigadeiro Gourmet</h3>
+							<p>R$ 4,00</p>
+						</div>
+				</div>
+
+
+				<div class="card">
+					<img class="img-produtos" src="imgg/brow.jpg" >
+					<div class="card-content">
+							<h3>Brownie</h3>
+							<p>R$ 12,00</p>
+						</div>
+				</div>
+		
+		</div>
+		</section>	
+
+		
+	
+		
+			<section id="pag-encomendas">
+			<h2>Encomendas</h2>
+			
+			<form name="" method="" action="">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome_completo" id="nome" size="" placeholder="Digite seu nome completo" required="true" autofocus=""><br/><br>
+
+			<label for="E-mail">E-mail:</label>
+			<input type="E-mail" name="E-mail" size="" placeholder="nomedeusuario@gmail.com">
+
+			<label for="nivel">Produto</label>
+				<select id="Produto" name="Produto">
+					<option value="">Selecione:</option>
+					<option value="BCenoura">Bolo de Cenoura</option>
+					<option value="BFesta">Bolo de Festa</option>
+					<option value="Brigadeiro">Brigadeiro(s)</option>
+					<option value="Brownie">Brownie(s)</option>
+				</select><br/><br/>
+
+			<div>
+			<label for="Quantidade">Quantidade:</label>
+			<input id="Quantidade" type="number" name="Quantidade" min="1" max="50"/>
+			</div>
+
+			<fieldset>
+				<legend>Forma de Retirada</legend>				
+				<input type="radio" name="entrega" value="Delivery" id="delivery"/> <label for="delivery">Delivery</label>
+				<input type="radio" name="entrega" value="Retirada" id="retirada"/> <label for="retirada">Retirar na loja</label>
+			</fieldset>
+
+			<label for="msg" name="msg" value="" id="">Comentários</label><br/>
+				<textarea id="msg">
+					
+				</textarea>
+			<div id="botoes-form">
+				<input type="submit" name="btn-encomendar" value="ENCOMENDAR">
+				<input type="reset" name="btn-cancelar" value="CANCELAR">
+			</div>
+			</form>
+			</section>
+
+			<footer>	
+			<p>Desenvolvido por <a href="http://intagram.com/marthos_mfc" target="_blank">Marthos Morilha</a> - 2021</p>
+			</footer>
+		
+				
+			
+	
+</body>
+</html>
